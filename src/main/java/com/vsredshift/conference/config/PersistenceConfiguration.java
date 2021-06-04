@@ -9,7 +9,7 @@ import javax.sql.DataSource;
 @Configuration
 public class PersistenceConfiguration {
 
-    @Bean
+/*    @Bean
     public DataSource dataSource() {
         DataSourceBuilder builder = DataSourceBuilder.create();
         builder.url("jdbc:postgresql://localhost:5432/conference_app");
@@ -17,5 +17,5 @@ public class PersistenceConfiguration {
         builder.password("Welcome");
         System.out.println("Custom data source has been initialised and set");
         return builder.build();
-    }
+    }*/
 }
